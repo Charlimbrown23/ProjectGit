@@ -38,19 +38,9 @@ public class Log extends ItensDePedido {
 	public void setItens(ArrayList<ItensDePedido> itens) {
 		this.itens = itens;
 	}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 	
->>>>>>> 690ac6be36f3304a366ee5425522fa32f13a3bf4
->>>>>>> afcc0eaac5ef1549e71fde9166e2144710a678b3
-
 	public void registrarLog(ItensDePedido itens) { 
 		this.itens.add(0, itens);
 	}
-<<<<<<< HEAD
   }
-=======
 }
->>>>>>> afcc0eaac5ef1549e71fde9166e2144710a678b3
