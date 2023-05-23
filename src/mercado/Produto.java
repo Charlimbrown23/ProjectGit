@@ -52,7 +52,7 @@ public class Produto {
 		consulta += "\n ------------------------";
 		consulta += "\n Código:"+this.codigo;
 		consulta += "\n Descrição:"+this.descricao;
-		consulta += "\nQuantidade:"+this.quantidade;
+		consulta += "\n Quantidade:"+this.quantidade;
 		consulta += "\n valor:"+this.valor;
 		consulta += "\n ------------------------";
 		
