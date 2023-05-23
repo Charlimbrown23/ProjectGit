@@ -1,12 +1,11 @@
-package test;
-
+package mercado;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Timer;
 
-public class Log extends ItensDePedido {
-
+public class Log {
+	
 	private Date data;
 	private Timer hora;
 	private ArrayList<ItensDePedido> itens;
@@ -14,31 +13,28 @@ public class Log extends ItensDePedido {
 	public Date getData() {
 		return data;
 	}
+	
 	public void setData(Date data) {
 		this.data = data;
 	}
+	
 	public Timer getHora() {
 		return hora;
 	}
+	
 	public void setHora(Timer hora) {
 		this.hora = hora;
 	}
+	
 	public ArrayList<ItensDePedido> getItens() {
 		return itens;
 	}
+
 	public void setItens(ArrayList<ItensDePedido> itens) {
 		this.itens = itens;
 	}
-	
-	public void registrarLog(ItensDePedido itens) {
-		 
-		itens= this.itens.getProduto();
-		
-	}
-	
-	
-	
-	
-	
-}
 
+	public void registrarLog(ItensDePedido itens) { 
+		this.itens.add(0, itens);
+	}
+}
