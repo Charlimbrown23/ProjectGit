@@ -50,17 +50,6 @@ public class Log extends ItensDePedido {
 <<<<<<< HEAD
 =======
 	
-	public void registrarLog(ItensDePedido itens) {
-		 
-		
-		
-	}
-	
-	
-	
-	
-	
-}
 >>>>>>> 690ac6be36f3304a366ee5425522fa32f13a3bf4
 
 	public void registrarLog(ItensDePedido itens) { 
