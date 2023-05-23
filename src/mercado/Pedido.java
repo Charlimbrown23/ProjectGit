@@ -3,7 +3,12 @@ package mercado;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Pedido{
+public class Pedido extends ItensDePedido{
+
+	public Pedido(long codigo, String descricao, int quantidade, double valor) {
+		super(codigo, descricao, quantidade, valor);
+		// TODO Auto-generated constructor stub
+	}
 
 	private long numero;
 	private Date data;
@@ -53,12 +58,15 @@ public class Pedido{
 
 	public boolean calcularTotal() {
 		
+		valorTotal = calcularSubTotal();
+		
+		
 		return true;
 	}
 	
 	public String finalizarPedido() {
 		
-		return "";
+		return "Compra Realizada!";
 	}
 
 }

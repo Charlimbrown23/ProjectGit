@@ -1,4 +1,4 @@
-package test;
+package mercado;
 
 
 import java.util.ArrayList;
@@ -6,6 +6,11 @@ import java.util.Date;
 import java.util.Timer;
 
 public class Log extends ItensDePedido {
+
+	public Log(long codigo, String descricao, int quantidade, double valor) {
+		super(codigo, descricao, quantidade, valor);
+		// TODO Auto-generated constructor stub
+	}
 
 	private Date data;
 	private Timer hora;
@@ -32,7 +37,7 @@ public class Log extends ItensDePedido {
 	
 	public void registrarLog(ItensDePedido itens) {
 		 
-		itens= this.itens.getProduto();
+		
 		
 	}
 	

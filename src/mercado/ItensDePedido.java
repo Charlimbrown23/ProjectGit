@@ -1,7 +1,11 @@
-package test;
+package mercado;
 
 public class ItensDePedido extends Produto {
 
+	public ItensDePedido(long codigo, String descricao, int quantidade, double valor) {
+		super(codigo, descricao, quantidade, valor);
+		// TODO Auto-generated constructor stub
+	}
 	private int quantidade;
 	private Produto produto;
 	
