@@ -1,17 +1,9 @@
 package mercado;
-<<<<<<< HEAD
-=======
-
->>>>>>> 690ac6be36f3304a366ee5425522fa32f13a3bf4
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Timer;
-
-<<<<<<< HEAD
-public class Log {
 	
-=======
 public class Log extends ItensDePedido {
 
 	public Log(long codigo, String descricao, int quantidade, double valor) {
@@ -19,7 +11,6 @@ public class Log extends ItensDePedido {
 		// TODO Auto-generated constructor stub
 	}
 
->>>>>>> 690ac6be36f3304a366ee5425522fa32f13a3bf4
 	private Date data;
 	private Timer hora;
 	private ArrayList<ItensDePedido> itens;
@@ -47,23 +38,8 @@ public class Log extends ItensDePedido {
 	public void setItens(ArrayList<ItensDePedido> itens) {
 		this.itens = itens;
 	}
-<<<<<<< HEAD
-=======
-	
-	public void registrarLog(ItensDePedido itens) {
-		 
-		
-		
-	}
-	
-	
-	
-	
-	
-}
->>>>>>> 690ac6be36f3304a366ee5425522fa32f13a3bf4
 
 	public void registrarLog(ItensDePedido itens) { 
 		this.itens.add(0, itens);
 	}
-}
+  }
